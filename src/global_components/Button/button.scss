@@ -1,0 +1,13 @@
+@import "../../global_styles/main";
+
+.btn {
+  @include button;
+
+  i {
+    color: white;
+  }
+}
+
+.btn.delete {
+  @include button($mb-danger);
+}

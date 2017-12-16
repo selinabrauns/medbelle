@@ -1,0 +1,19 @@
+@mixin button ($bg-color: $mb-corporate) {
+  padding: 5px 10px;
+  border: 1px solid $bg-color;
+  border-radius: 20px;
+  color: white;
+  background-color: $bg-color;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($bg-color, 15%);
+  }
+}
+
+@mixin box-shadow($shadows...) {
+  -webkit-box-shadow: $shadows;
+  -moz-box-shadow: $shadows;
+  box-shadow: $shadows;
+}

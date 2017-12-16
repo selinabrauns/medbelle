@@ -1,0 +1,40 @@
+@import '../../global_styles/main';
+
+.activity-card {
+  width: 300px;
+  background-color: white;
+  @include box-shadow(0px 0px 15px 0px rgba(0,0,0,0.21));
+
+  .activity-header {
+    border-bottom: 1px solid $mb-grey-dark;
+    overflow: hidden;
+
+    h3 {
+      float: left;
+      margin: 5px 10px;
+    }
+
+    i {
+      float: right;
+      margin: 10px;
+    }
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .activity-description {
+    font-size: 11px;
+  }
+
+  .activity-actions {
+    overflow: hidden;
+    border-top: 1px solid $mb-grey-dark;
+
+    button {
+      float: right;
+      margin: 10px 5px;
+    }
+  }
+}

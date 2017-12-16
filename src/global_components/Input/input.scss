@@ -1,0 +1,46 @@
+@import '../../global_styles/main';
+
+.input-field {
+  overflow: hidden;
+  float: left;
+
+  .optional {
+    //font: 12px $base-font;
+   // color: $lv-corporate-light;
+    float: right;
+    margin-bottom: 3px;
+  }
+
+  .input {
+    clear: right;
+    overflow: hidden;
+
+    //label {
+    //  margin-right: 17px;
+    //  font: 12px $base-font;
+    //  text-align: right;
+    //  color: $lv-corporate;
+    //  float: right;
+    //}
+    //
+    //input {
+    //  border: 1px solid $lv-corporate-light;
+    //  border-radius: $base-border-radius;
+    //  font: 12px $base-font;
+    //  color: $lv-corporate;
+    //  padding: 3px 9px;
+    //  float: right;
+    //
+    //  &:focus {
+    //    outline: none;
+    //    border-color: $lv-accent;
+    //  }
+    //}
+    //
+    //&.error {
+    //  input {
+    //    border-color: $lv-error;
+    //  }
+    //}
+  }
+}

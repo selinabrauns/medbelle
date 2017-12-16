@@ -1,0 +1,10 @@
+@import "../../../global_styles/main";
+
+.page {
+  background-color: $mb-grey;
+  height: 100%;
+
+  .content {
+    padding: 20px;
+  }
+}
